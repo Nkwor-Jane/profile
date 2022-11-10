@@ -1,0 +1,17 @@
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills p{
+    color:#4e4e4e;
+    background-color: #d4d4d4;
+    padding: 10px;
+    font-weight: 500;
+    margin: 10px;
+    border-radius: 10px;
+}
+.skills p:hover{
+    background-color: #0D1117;
+    color: #fff;
+    border: 1px solid #fff;
+}

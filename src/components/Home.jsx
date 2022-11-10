@@ -1,15 +1,16 @@
 import React from 'react';
 import '../styles/Home.css';
+import 'animate.css';
 
 export default function Home() {
   return (
     <div className='body'>
-        <h1>My Profile</h1>
-        <img src="" alt="my-pic" />
-        <div>
-            <h3>Name: <span>Nkwor Jane Chinelo</span></h3>
-            <h3>Email: <span>nkwor.jane.chinelo@gmail.com</span></h3>
-        </div>
+      <div>
+          {/* make the info like lists with some hover animations */}
+        <h1 className='heading1 animate__animated animate__bounce'>Hey, I am Jane Nkwor</h1>
+        <p className='par1'>A Frontend developer and Technical writer</p>
+        <p className='par2'>based in Lagos, Nigeria.</p>
+      </div>
     </div>
   )
 }

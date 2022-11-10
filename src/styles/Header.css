@@ -1,0 +1,22 @@
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 30px; */
+    margin: 0 4rem;
+    color: #fff;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.links nav ul li:hover{
+    border-bottom: 2px solid red;
+    padding-top: 1px;
+}
+
+.links nav ul li:active{
+    border-bottom: 1px solid blue;
+}

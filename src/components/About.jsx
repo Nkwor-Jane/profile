@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import "../styles/About.css";
 
 export default function About() {
   return (
@@ -14,10 +15,17 @@ export default function About() {
         personal projects such as an Attendance management 
         system using QR code, I know I can add value to any IT department.
         </p>
-        <h3>Skilled in</h3>
-        <p>HTML5</p>
-        <p>CSS3</p>
-        <p>JavaScript with React Library</p>
+        <div className="skills">
+          <h3>Skilled in:</h3>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>GIT</p>
+          <p>Github</p>
+          <p>React</p>
+          <p>SASS</p>
+          <p>Bootstrap</p>
+        </div>
     </div>
   )
 }

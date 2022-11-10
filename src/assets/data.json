@@ -1,0 +1,23 @@
+[
+    {
+        "projectName": "A RANDOMN JOKE GENERATOR",
+        "link": "https://github.com/Nkwor-Jane/randomn-joke-generator",
+        "desc": "A randomn joke generator that displays a new joke each time the button is clicked",
+        "technologies": ["ReactJS", "JokeApi"],
+        "projectImg":"require(./joke-generator.png')"
+    },
+    {
+        "projectName": "CALLER TUNE GENERATOR",
+        "link": "https://www.google.com",
+        "desc": "Generates tunes based on your mood",
+        "technologies": ["ReactJS", "EmojiApi", "MusicAPi"],
+        "projectImg":"../images/music.png"
+    },
+    {
+        "projectName": "RECIPE PRINTER",
+        "link": "https://www.google.com",
+        "desc": "Downloads recipes and prints on beautifully formatted paper",
+        "technologies": ["ReactJS", "Bootstrap", "RecipeAPI"],
+        "projectImg":"../images/recipe.png"
+    }
+]
