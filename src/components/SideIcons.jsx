@@ -1,8 +1,8 @@
 import React from "react";
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { brands, icon } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 import "../styles/SideIcons.css";
 
