@@ -13,19 +13,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* height: 100vh; */
+    height: 100vh;
     padding-top: 30px;
     color: #000;
     font-family: 'Josefin Sans', serif;
 }
-
-.footerDiv{
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    flex-direction: column;
-}
-
 /* @media only screen and (max-width: 700px) {
     .bodyApp{
         flex-direction: column;

@@ -10,10 +10,23 @@
     padding-top: 1rem;
     font-size:6.5rem;
 }
+/* Added linear-gradient property to text */
+.heading1:hover{
+    background: -webkit-linear-gradient(#eee, #333);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .par1{
     padding-top: 20px;
     font-size: 3rem;
+}
+.par1:hover{
+    background: -webkit-linear-gradient(#FF8FB1, #FCE2DE);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .par2{
     font-size: 1.5rem;

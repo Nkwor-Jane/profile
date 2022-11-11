@@ -1,26 +1,28 @@
-.social-icons{
+.footerParDiv{
     display: flex;
     align-items: center;
-    gap: 30px;
-}
-.icons{
-    border: 1px sold #d4d4d4;
-    padding: 5px;
-    border-radius: 10px;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 3rem;
+    bottom: 0;
+    position: fixed;
 }
 .heart{
     color: red;
 }
-.footerParDiv{
-    border: 2px dashed #fff;
-    padding:  10px;
-}
-.footerParDiv:hover{
-    background-color: #fff;
+.heart:hover{
+    width: 30px;
+    height: 30px;
 }
 .footerPar{
     color: #fff;
+    font-size: 1rem;
 }
 .footerPar:hover{
     color: #000;
+    font-weight: 700;
+}
+.footerPar{
+    font-weight: 400;
+    font-size: 1rem;
 }

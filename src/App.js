@@ -21,9 +21,9 @@ function App() {
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/projects' element={<Projects/>}/>
       </Routes> 
-    <div className="footerDiv">
+    {/* <div className="footerDiv"> */}
       <Footer/>
-    </div>
+    {/* </div> */}
     {/* </CarouselComp> */}
     </div>
   );

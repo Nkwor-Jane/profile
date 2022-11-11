@@ -27,9 +27,11 @@ export default function Contact() {
   };
   return (
     <div className="form-body">
+      <div className="someText">
         <h3>Let's talk</h3>
-        <p>I'm available for <em>Job</em> opportunities where I can learn, build and grow.<br/>
+        <p>I'm available for <em>Job</em> opportunities where I can learn, build and grow.
         Feel free to contact me and I will get back to you as soon as I can.</p>
+      </div>
         <div className="form">
           <Form ref={form} onSubmit={handleSubmit(sendEmail)}>
             <Form.Group className="mb-3">
@@ -39,7 +41,7 @@ export default function Contact() {
                 id="full_Name" 
                 placeholder="Your Full Name" 
                 {...register("full_Name", {required: true})} 
-                className={`'inputs' ${errors.full_Name ? 'form-control' : ''}`}/>
+                className={`'' ${errors.full_Name ? 'form-control' : ''}`}/>
                 {errors.full_Name && <span>Please enter your full name...</span>}
             </Form.Group>
             <Form.Group className="mb-3">
@@ -48,7 +50,7 @@ export default function Contact() {
                 type="email" 
                 placeholder="Enter email"
                 {...register("email", {required: true})}
-                className={`'inputs' ${errors.email ? 'form-control' : ''}`}/>
+                className={`'' ${errors.email ? 'form-control' : ''}`}/>
               {errors.email && <span>Please enter your email address...</span>}
             </Form.Group>
             <Form.Group className="mb-3" >
@@ -57,7 +59,7 @@ export default function Contact() {
                 type="text" as="textarea" rows={6} 
                 placeholder="Send a message" 
                 {...register("message", {required:true})}
-                className={`'inputs' ${errors.message ? 'form-control' : ''}`}/>
+                className={`'' ${errors.message ? 'form-control' : ''}`}/>
                 {errors.message && <span>Plese enter your message...</span>}
             </Form.Group>
             <div>
