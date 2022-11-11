@@ -18,3 +18,13 @@ nav ul{
 .links nav ul li:active{
     border-bottom: 1px solid blue;
 }
+.my-pic{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 1px dashed rgb(65, 65, 66);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.my-pic:hover{
+    opacity: 0.5;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import profilePic from "../images/profile.jpg";
 
 import "../styles/Header.css";
 
@@ -8,7 +9,9 @@ export default function Header() {
     return (
         <div className="links">
             <div>
-             <Link to="/" className='link nav-link active'>LOGO</Link>
+             <Link to="/" className='link nav-link active'>
+                <img src={profilePic} alt="my personal-pic" className="my-pic"/>
+             </Link>
             </div>
             <nav>
                 <ul>

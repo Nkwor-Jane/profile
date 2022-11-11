@@ -63,7 +63,7 @@ export default function Contact() {
                 {errors.message && <span>Plese enter your message...</span>}
             </Form.Group>
             <div>
-              <Button variant="info" size="lg" type="submit" style={{color: "#fff", margin: "10px 0"}}>
+              <Button variant="primary" size="lg" type="submit" style={{color: "#fff", margin: "10px 0"}}>
                 Send Message
               </Button>
             </div>

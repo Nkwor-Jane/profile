@@ -1,9 +1,9 @@
 .footerParDiv{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin: 10px 3rem;
+    justify-content: flex-end;
+    width: 90%;
+    margin: 20px 3rem;
     bottom: 0;
     position: fixed;
 }
